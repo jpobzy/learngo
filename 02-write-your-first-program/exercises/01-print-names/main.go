@@ -23,7 +23,10 @@ package main
 //  And after that use `go build` and run your program.
 // ---------------------------------------------------------
 
+import "fmt"
+
+
 func main() {
-	// ?
-	// ?
+	fmt.Println("Joey")
+	fmt.Println("Tyler")
 }
