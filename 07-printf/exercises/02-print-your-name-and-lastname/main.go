@@ -21,9 +21,23 @@ package main
 //    in a variable.
 //  Then pass it to printf
 // ---------------------------------------------------------
+import "fmt"
+
+
+var (
+	fname, lname string
+) 
+
+
 
 func main() {
 	// BONUS: Use a variable for the format specifier
 
-	// fmt.Printf("?", ?, ?)
+	fname = "Joey"
+	lname = "Poblete"
+	fmt.Printf("My name is %s %s\n", fname, lname)
+
+	msg := "My name is %s %s\n"
+	fmt.Printf(msg, fname, lname)
+
 }

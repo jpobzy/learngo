@@ -8,6 +8,8 @@
 
 package main
 
+var x bool
+
 // ---------------------------------------------------------
 // EXERCISE: Package Variable
 //

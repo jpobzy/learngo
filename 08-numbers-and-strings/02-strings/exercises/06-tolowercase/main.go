@@ -26,6 +26,13 @@ package main
 // EXPECTED OUTPUT
 //  shepard
 // ---------------------------------------------------------
+import (
+	"fmt"
+	"os"
+	"strings"
+)
 
 func main() {
+	s := os.Args[1]
+	fmt.Println(strings.ToLower(s))
 }

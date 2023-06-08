@@ -25,10 +25,13 @@ package main
 // EXPECTED OUTPUT
 //  false 0
 // ---------------------------------------------------------
-
+import (
+	"fmt"
+)
 func main() {
-	// var (
-	//   ?
-	// )
-	// fmt.Println(active, delta)
+	var (
+	  active bool;
+	  delta int
+	)
+	fmt.Println(active, delta)
 }

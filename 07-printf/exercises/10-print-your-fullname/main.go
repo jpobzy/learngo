@@ -21,6 +21,16 @@ package main
 //  Your name is Inanc and your lastname is Gumus.
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+	"os"
+)
+
 func main() {
 	// BONUS: Use a variable for the format specifier
+	name, lastname := os.Args[1], os.Args[2]
+	msg :="Your name is %s and your last name is %s.\n"
+
+	fmt.Printf(msg, name, lastname)
 }
+

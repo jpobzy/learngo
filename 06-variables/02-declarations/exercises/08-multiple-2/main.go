@@ -24,13 +24,17 @@ package main
 // EXPECTED OUTPUT
 //  "" ""
 // ---------------------------------------------------------
+import (
+	"fmt"
+)
 
 func main() {
 	// ADD YOUR DECLARATION HERE
-	//
+	var firstName, lastName string = "", ""
+	//or var firstName, lastName string
 
 	// REPLACE THE QUESTION-MARKS BELOW
 	// WITH THE NAME OF YOUR VARIABLES
 
-	// fmt.Printf("%q %q\n", ?, ?)
+	fmt.Printf("%q %q\n", firstName, lastName)
 }
