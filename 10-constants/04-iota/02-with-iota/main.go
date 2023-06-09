@@ -18,7 +18,7 @@ func main() {
 		thursday
 		friday
 		saturday
-		sunday
+		sunday 
 	)
 
 	fmt.Println(monday, tuesday, wednesday, thursday, friday,

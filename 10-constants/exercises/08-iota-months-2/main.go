@@ -28,10 +28,19 @@ func main() {
 
 	// Now, use iota and initialize the following constants
 	// "automatically" to 1, 2, and 3 respectively.
-	const (
-		Jan = iota
-		Feb
-		Mar
+	// const (
+
+	// 	Jan = iota + 1
+	// 	Feb
+	// 	Mar
+	// )
+	 // or 
+
+	 const (
+		_   = iota 
+		Jan        
+		Feb        
+		Mar        
 	)
 
 	// This should print: 1 2 3

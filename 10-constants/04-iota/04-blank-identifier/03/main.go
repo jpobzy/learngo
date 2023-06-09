@@ -15,6 +15,7 @@ func main() {
 		EST = -(5 + iota) // CORRECT: -5
 		_
 		MST // CORRECT: -7
+		
 		PST // CORRECT: -8
 	)
 

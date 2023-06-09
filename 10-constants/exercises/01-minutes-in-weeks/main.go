@@ -27,5 +27,16 @@ package main
 //  There are 20160 minutes in 2 weeks.
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+)
+
 func main() {
+	const(
+		minsPerDay = 24 * 60
+		weekDays = 7
+	) 
+
+
+	fmt.Printf("There are %d minutes in %d weeks\n", weekDays * minsPerDay * 2, 2)
 }
